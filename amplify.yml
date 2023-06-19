@@ -11,7 +11,7 @@ version: 1
  commands:
  - ./dotnet7/dotnet publish -c Release -o release
  artifacts:
- baseDirectory /release/wwwroot
+ baseDirectory: /release/wwwroot
  files:
  - '**/*'
  cache:
